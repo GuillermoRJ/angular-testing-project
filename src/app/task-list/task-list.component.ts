@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class TaskListComponent {
 
   tasks: string[] = [];
-
   constructor() {
     console.log('TaskListComponent initialized');
   }
 
   addTask(task: string) {
     console.log('Adding task:', task);
+    
   }
 
   updateTask(task: string) {
@@ -24,4 +24,8 @@ export class TaskListComponent {
   deleteTask(task: string) {
     console.log('Deleting task:', task);
   }
+
+
+  respuesta:string="";
+  actualizacion:string="";
 }

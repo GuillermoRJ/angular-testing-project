@@ -1,0 +1,7 @@
+
+@for (item of tasks; track item) {
+    <p>{{this.string}} </p>
+    <button (click)="deleteTask(item)">Eliminar</button>
+    <button (click)="updateTask()" >Editar</button>
+    <hr>
+ }
